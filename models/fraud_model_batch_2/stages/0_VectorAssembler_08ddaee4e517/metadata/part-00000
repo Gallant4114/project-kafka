@@ -1,0 +1,1 @@
+{"class":"org.apache.spark.ml.feature.VectorAssembler","timestamp":1748524421877,"sparkVersion":"3.5.5","uid":"VectorAssembler_08ddaee4e517","paramMap":{"outputCol":"features","inputCols":["amt","lat","long","city_pop","unix_time","merch_lat","merch_long"]},"defaultParamMap":{"outputCol":"VectorAssembler_08ddaee4e517__output","handleInvalid":"error"}}
