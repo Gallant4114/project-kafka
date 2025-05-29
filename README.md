@@ -3,8 +3,8 @@
 | Nama              | NRP        |
 | ----------------- | ---------- |
 | Irfan Qobus Salim | 5027221058 |
-| Ricko Mianto      | 50272310   |
-| Gallant Damas     | 50272310   |
+| Ricko Mianto      | 5027231031   |
+| Gallant Damas     | 5027231037   |
 
 ## Kafka Producer
 
