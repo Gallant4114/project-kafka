@@ -39,7 +39,7 @@ Setelah consumer mengolah data menjadi 3 batch, tahap selanjutnya adalah pelatih
   - Menyimpan hasil evaluasi untuk analisis lebih lanjut.
 
 - Penyimpanan Model:
-  - Menyimpan model yang telah dilatih ke dalam direktori `models/` dengan format **fraud*model_batch*{id}**.
+  - Menyimpan model yang telah dilatih ke dalam direktori `models/` dengan format **fraud_model_batch_{id}**.
   - Model disimpan sebagai **PipelineModel** untuk memudahkan penggunaan kembali dalam sistem backend.
 
 ## Backend API
@@ -55,5 +55,10 @@ Ada 3 endpoint yang kami buat, yaitu:
 **Dokumentasi**
 
 - POST `/predict_all_models`
+![image](https://github.com/user-attachments/assets/4ef7b3b0-29e1-45bb-bb9e-084d63031961)
+
 - GET `/fraud_history/<merchant>`
+![image](https://github.com/user-attachments/assets/63c54878-644a-4383-9bc3-8e2471858242)
+
 - GET `/fraud_stats`
+![image](https://github.com/user-attachments/assets/222788a0-658c-4fa9-85c3-148f00ada356)
